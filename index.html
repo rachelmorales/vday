@@ -1,12 +1,26 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype HTML>
+<html>
+<!-- This is a link to the latest A-Frame library-->
+<script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-</head>
+<!-- This is a link to the ar.js library for A-Frame -->
+<script src="https://raw.githack.com/jeromeetienne/AR.js/2.0.1/aframe/build/aframe-ar.js"></script>
 
-<body>
+<body style='margin : 0px; overflow: hidden;'>
+
+  <a-scene embedded arjs>
+
+    <a-marker-camera preset="https://jeromeetienne.github.io/bdc08f80-123d-445b-9be8-d96ab42bd927">
+
+      <a-cylinder position="0 0.5 0" material="color: yellow" height=".5" radius=".25"></a-cylinder>
+
+      <a-text value="Hello Art 107!!" position="-0.5 0 -1" color="#FF16EB" rotation="-45 0 0"></a-text>
+
+      </a-marker>
+
+      <a-entity camera></a-entity>
+
+  </a-scene>
 
 </body>
 
