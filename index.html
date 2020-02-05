@@ -10,15 +10,16 @@
 
   <a-scene embedded arjs>
 
-    <a-marker-camera preset="hiro">
+    <!-- <a-marker-camera preset="hiro"> -->
+    <a-marker-camera type="pattern" patternUrl="blob:https://jeromeetienne.github.io/bdc08f80-123d-445b-9be8-d96ab42bd927"></a-marker-camera>
 
-      <a-cylinder position="0 0.5 0" material="color: yellow" height=".5" radius=".25"></a-cylinder>
+    <a-cylinder position="0 0.5 0" material="color: yellow" height=".5" radius=".25"></a-cylinder>
 
-      <a-text value="Hello" position="-0.5 0 -1" color="#FF16EB" rotation="-45 0 0"></a-text>
+    <a-text value="Hello" position="-0.5 0 -1" color="#FF16EB" rotation="-45 0 0"></a-text>
 
-      </a-marker>
+    </a-marker>
 
-      <a-entity camera></a-entity>
+    <a-entity camera></a-entity>
 
   </a-scene>
 
