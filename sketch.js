@@ -18,10 +18,12 @@ createCanvas(windowWidth, windowHeight);
 function draw() {
   background(255, 224, 235);
 
-  animation(heart, 100, 150);
-  animation(heart2, 300, 150);
-  animation(heart3, 500, 150);
-  animation(heart4, 700, 150);
+  text('Happy Valentines Day!');
+
+  animation(heart, 300, 150);
+  animation(heart2, 500, 150);
+  animation(heart3, 700, 150);
+  animation(heart4, 900, 150);
 
 }
 
