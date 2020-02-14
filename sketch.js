@@ -19,9 +19,9 @@ textFont("Berkshire Swash");
 fill(196, 49, 49);
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
+// function windowResized() {
+//   resizeCanvas(windowWidth, windowHeight);
+// }
 
 function draw() {
   background(255, 224, 235);
