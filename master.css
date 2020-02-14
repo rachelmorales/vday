@@ -1,14 +1,5 @@
-/* html, body {
-  margin: 0;
-  padding: 0;
-}
-canvas {
-  display: block;
-} */
-
-
 body {
-  background-color: #ffe0eb;
+  background-color: #2e2e54;
   font-family: 'Courgette', cursive;
   margin: 0;
   display: flex;
@@ -25,3 +16,10 @@ body, html{
     margin: 0;
     padding: 0;
 }
+
+
+/* h1, p {
+  padding: 10%;
+  text-align: center;
+  color: white;
+} */

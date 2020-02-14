@@ -12,8 +12,9 @@ function preload() {
 }
 
 function setup() {
+  createCanvas(700, 700);
 // createCanvas(windowWidth, windowHeight);
-createCanvas(displayWidth, displayHeight);
+// createCanvas(displayWidth, displayHeight);
 textSize(28);
 textFont("Berkshire Swash");
 fill(196, 49, 49);
@@ -26,13 +27,13 @@ fill(196, 49, 49);
 function draw() {
   background(255, 224, 235);
 
-  text('Happy Valentines Day!', 485, 370);
+  text('Happy Valentines Day!', 210, 370);
 
 //center this somehow
-  animation(heart, 320, 200);
-  animation(heart2, 520, 200);
-  animation(heart3, 720, 200);
-  animation(heart4, 920, 200);
+  animation(heart, 90, 200);
+  animation(heart2, 260, 200);
+  animation(heart3, 435, 200);
+  animation(heart4, 610, 200);
 
 }
 
