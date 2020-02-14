@@ -12,7 +12,8 @@ function preload() {
 }
 
 function setup() {
-createCanvas(windowWidth, windowHeight);
+// createCanvas(windowWidth, windowHeight);
+createCanvas(displayWidth, displayHeight);
 textSize(28);
 textFont("Berkshire Swash");
 fill(196, 49, 49);
